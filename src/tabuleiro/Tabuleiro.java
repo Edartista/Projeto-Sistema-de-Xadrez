@@ -2,15 +2,13 @@ package tabuleiro;
 public class Tabuleiro {
     
     private int linhas;
-    int colunas;
     private int colunas;
-    Peça[][] peças;
+    private Peça[][] peças;
 
     public Tabuleiro(int linhas, int colunas) {
         this.linhas = linhas;
         this.colunas = colunas;
         peças = new Peça [linhas][colunas];
-        
     }
 
     public int getLinhas() {
@@ -29,7 +27,12 @@ public class Tabuleiro {
         this.colunas = colunas;
     }
     
+    public Peça peça (int linha, int coluna){
+        return peças[linha][coluna];
+    }
     
-    
+    public Peça peça (Posição posição){
+        return peças[posição.getLinha()][posição.getColuna()];
+    }
     
 }

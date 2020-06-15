@@ -28,6 +28,4 @@ public class Posição {
     public String toString(){
         return linha + ", " + coluna;
     }
-    
-    
 }
