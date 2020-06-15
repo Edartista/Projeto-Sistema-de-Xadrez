@@ -1,6 +1,6 @@
 package sistemadexadrez;
 
-import Tabuleiro.Posição;
+import tabuleiro.Posição;
 
 public class SistemaDeXadrez {
     public static void main(String[] args) {
