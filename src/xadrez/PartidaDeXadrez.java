@@ -29,5 +29,4 @@ public class PartidaDeXadrez {
         tabuleiro.lugarDaPeça(new Rei(tabuleiro, Cor.preto), new Posição (0,4));
         tabuleiro.lugarDaPeça(new Rei(tabuleiro, Cor.branco), new Posição (7,4));
     }
-    
 }
